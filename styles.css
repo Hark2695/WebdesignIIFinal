@@ -1,0 +1,280 @@
+
+html{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #868F79;
+}
+
+nav ul{
+display: flex;
+justify-content: end;
+list-style-type: none;
+padding: 0%;
+margin: 20px;
+border-bottom: 1.5px solid black;
+}
+
+nav ul a{
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+    text-decoration: underline;
+}
+
+
+.harklogo img{
+    height: auto;
+    width: 200px;
+    padding-top: 100px;
+}
+
+section{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    max-width: 600px;
+    align-items: center; 
+    font-family: "Afacad Flux", sans-serif;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    max-width: 600px;
+    padding-bottom: 20px;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Staatliches";
+    
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 900px;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.AboutmeIMG{
+    border: 5px #D5AF30;
+    padding: 5px;
+    border-radius: 10px;
+}
+.dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: auto;
+}
+
+
+footer{
+    border-top: 1.5px solid black;
+    padding-bottom: 60px;
+}
+
+footer p {
+    border: 0;
+}
+
+.ClientGalleryA{
+    display: flex;
+    justify-content: center;
+    align-items: row; 
+   margin: 20px;
+}
+
+.ClientGalleryA img{
+    width: auto;
+    height: 250px;
+}
+
+.ClientGalleryB{
+    display: flex;
+    justify-content: center;
+    align-items: row; 
+   margin: 20px;
+}
+
+.ClientGalleryB img{
+    width: auto;
+    height: 750px;
+}
+
+.ClientGalleryC{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: row; 
+   margin: 10px;
+}
+
+.ClientGalleryC img{
+    width: auto;
+    height: 300px;
+}
+
+
+.CourseGalleryA{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: row; 
+   margin: 10px;
+}
+
+.CourseGalleryA img{
+    width: auto;
+    height: 500px;
+}
+
+.imgme img{
+    display: flex;
+    justify-content: center;
+    max-width: 400px;
+    height: auto;
+
+}
+
+.video  {
+    padding-bottom: 10px;
+}
+
+.Button {
+    background-color: #D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+    padding-top: 10px;
+}
+
+.Button1{
+    background-color: #D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+    padding-top: 10px;
+}
+
+.Button2{
+    background-color: #D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+    padding-top: 10px;
+}
+#div1{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:#D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#div2{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:#D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+#div3{
+    width:80px;
+    height:80px;
+    display:none;
+    background-color:#D5AF30;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    align-items: center; 
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.form input{
+    padding: 1.5rem;
+    width: 8cm;
+    height: .5rem;
+
+}
+
+.form textarea{
+    padding: 1.5rem;
+    width: 8cm;
+    height: 8rem;
+}
+
+
+.form .ButtonForm{
+    background-color: #D5AF30;
+    color: black;
+    font-size: larger;
+    border: 1px solid black;
+    font-family: "Afacad Flux", sans-serif;
+    padding: .5rem;
+    width: auto;
+    height: auto;
+}
+
+.form .radio{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    align-items: center; 
+    text-decoration: none;
+    font-family: "Afacad Flux", sans-serif;
+}
